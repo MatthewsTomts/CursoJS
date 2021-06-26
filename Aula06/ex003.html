@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+    <style>
+        body {  /* Isso é um comentário em CSS3*/
+            background-color: #3434be;
+            color: #757272;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- Isso é um comentário em HTML -->
+    <p>Já me livrei da maldição!</p>
+    <script>  // Código JS
+        var n1 = parseFloat(prompt('Digite um número: ')) // Converte o valor para decimal
+        var n2 = Number.parseFloat(prompt('Digite outro número: ')) // 'Number' é desnecessário
+        var n3 = Number(prompt('Digite o último número: ')) // Quando 'Number' está sozinho o JS escolhe o tipo de número
+        var s = n1 + n2 + n3
+        alert(`A soma dos valores ${n1}, ${n2} e ${n3} é ${String(s)}`)  // Transforma em string
+        // Template String: utiliza crases (``) e ${} com as variáveis dentro
+    </script>
+</body>
+</html>

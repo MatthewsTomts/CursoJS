@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Programa...</title>
+    <title>Ex002</title>
     <style>
-        body {
+        body {  /* Isso é um comentário em CSS3*/
             background-color: #3434be;
             color: #757272;
             font: normal 20pt Arial;
@@ -17,14 +17,15 @@
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!-- Isso é um comentário em HTML -->
     <p>Já me livrei da maldição!</p>
     <script>  // Código JS
         /*
         window.alert("Morho")  // O trecho 'window.' é desnecessário
         confirm("Você está bem?")  // Cria um popup de confirmação
         */
-        window.prompt("Me conte algo")  // Cria um popup com um campo para digitar
+        var nome = window.prompt("Qual seu nome?")  // Cria um popup com um campo para digitar
+        alert('É um grande prazer te conhecer, ' + nome + '!')
     </script>
 </body>
 </html>
